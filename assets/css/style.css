@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", serif;
+  
+}
+{
+    padding 0;
+    margin 0;
+    box-sizing 0;
+
+
+}
+.navbar{
+    background-color: aqua;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.navbar-logo h6 {
+    color: black;
+    margin-left: 20px;
+    font-weight: 500px;
+    font-size: 24px;
+}
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+.navbar-links li {
+    margin: 15px;
+}
+.navbar-links a {
+    text-decoration: none;
+    color: red;
+    font-size: 21px;
+    transition: 2.0px;
+}
+.parawisata{
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.parawisata-content p  {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+
+}
+.parawisata-image .img_native{
+    border-radius: 10px ;
+    box-shadow: 1px 2px 3px black;
+    }
+.active {
+    color: black !important;
+}
+.color_native {
+    color: green !important;
+}
+.bg-native {
+    background-color: antiquewhite;
+}
